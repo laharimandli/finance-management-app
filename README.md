@@ -4,46 +4,12 @@ A full-stack Finance Management Mini Application built with React + Mantine UI f
 
 1.Technology Stack
 
-Layer          Technology
---------------------------
 Frontend       React + Mantine UI + Axios
 Backend        Spring Boot (Java)
 Database       PostgreSQL
 Build Tool     Maven
 
-
-2.Project Structure
-
-finance-management-app/
-├── finance-backend/
-│   ├── src/main/java/com/finance/finance_backend/
-│   │   ├── entity/
-│   │   │   ├── BaseEntity.java
-│   │   │   └── FinanceRecord.java
-│   │   ├── repository/
-│   │   │   └── FinanceRepository.java
-│   │   ├── service/
-│   │   │   └── FinanceService.java
-│   │   ├── controller/
-│   │   │   └── FinanceController.java
-│   │   └── FinanceBackendApplication.java
-│   ├── src/main/resources/
-│   │   └── application.properties
-│   └── pom.xml
-├── finance-frontend/
-│   ├── src/
-│   │   ├── api/
-│   │   │   └── financeApi.js
-│   │   ├── components/
-│   │   │   ├── FinanceTable.jsx
-│   │   │   ├── FinanceForm.jsx
-│   │   │   └── DeleteConfirm.jsx
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   └── package.json
-└── README.md
-
-3.Prerequisites
+2.Prerequisites
 
 you have these installed:
 - Java 17+
@@ -52,7 +18,7 @@ you have these installed:
 - Maven
 - Git
 
-4.Setup Instructions
+3.Setup Instructions
 
 Step 1 — Database Setup
         Open pgAdmin or SQL Shell and run:
@@ -68,17 +34,17 @@ Step 2 — Backend Setup
         4. Verify backend is running:
     
 Step 3 — Frontend Setup
-        1. Open terminal and navigate to frontend folder:
+1. Open terminal and navigate to frontend folder:
            bash: cd finance-frontend
-        2. Install dependencies:
+2. Install dependencies:
            bash: npm install
-        3. Install Mantine UI and Axios:
+3. Install Mantine UI and Axios:
            bash: npm install @mantine/core @mantine/hooks axios
-        4. Run the application:
+4. Run the application:
            bash: npm run dev
-        5. Open browser
+5. Open browser
 
-5.API Details
+4.API Details
 
 Base URL
 http://localhost:8080/finance
@@ -94,7 +60,7 @@ PUT      /finance/{id}   Update record
 DELETE   /finance/{id}   Delete record
 
 
-6.Sorting
+5.Sorting
 
 Sort records by passing query parameters:
 
@@ -107,7 +73,7 @@ Supported sort fields:
 - amount
 - date
 
-7.Request Body (POST / PUT):
+6.Request Body (POST / PUT):
 
 json
 {
@@ -119,7 +85,7 @@ json
     "date": "2024-01-15"
 }
 
-8.Response Body:
+7.Response Body:
 
 json
 {
@@ -136,7 +102,7 @@ json
     "date": "2024-01-15"
 }
 
-9.Features
+8.Features
 ---------
 Backend Features:
 - REST API with 5 endpoints
@@ -157,12 +123,12 @@ Frontend Features:
 - Error handling
 - Axios integration with backend
 
-10.Database Schema
+9.Database Schema
 
 Table name: finance_record
 
 Column           Type         Description
-------------------------------------------------
+
 id              BIGINT       Primary Key (Auto increment)
 user_name       VARCHAR      Name of user
 type            VARCHAR      INCOME or EXPENSE
@@ -176,7 +142,7 @@ edited_date     TIMESTAMP    Audit - when edited
 edited_by       VARCHAR      Audit - who edited
 
 
-11.Running the Complete Application
+10.Running the Complete Application
 
 Make sure all three services are running:
 
