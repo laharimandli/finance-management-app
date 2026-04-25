@@ -2,15 +2,15 @@ Finance Management Application
 -------------------------------
 A full-stack Finance Management Mini Application built with React + Mantine UI for the frontend and Spring Boot for the backend.
 
-1. Technology Stack
--------------------
+Technology Stack
+
 Frontend       React + Mantine UI + Axios,
 Backend        Spring Boot (Java),
 Database       PostgreSQL,
 Build Tool     Maven
 
-2. Prerequisites
----------------
+Prerequisites
+
 you have these installed:
 - Java 17+
 - Node.js 20+
