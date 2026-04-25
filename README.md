@@ -121,31 +121,10 @@ Frontend Features:
 - Error handling
 - Axios integration with backend
 
-9.Database Schema
-
-Table name: finance_record
-
-Column           Type         Description
-
-id              BIGINT       Primary Key (Auto increment)
-user_name       VARCHAR      Name of user
-type            VARCHAR      INCOME or EXPENSE
-category        VARCHAR      Category of transaction
-amount          DOUBLE       Transaction amount
-description     VARCHAR      Description of transaction
-date            DATE         Transaction  date
-created_date    TIMESTAMP    Audit - when created
-created_by      VARCHAR      Audit - who created
-edited_date     TIMESTAMP    Audit - when edited
-edited_by       VARCHAR      Audit - who edited
-
-
 10.Running the Complete Application
 
 Make sure all three services are running:
 
-Service       Port    Status Check
-------------------------------------
 PostgreSQL    5432   pgAdmin connected
 Spring Boot   8080   http://localhost:8080/finance
 React         5173   http://localhost:5173
