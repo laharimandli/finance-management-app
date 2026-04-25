@@ -1,16 +1,16 @@
 Finance Management Application
-
+-------------------------------
 A full-stack Finance Management Mini Application built with React + Mantine UI for the frontend and Spring Boot for the backend.
 
 1.Technology Stack
-
+-------------------
 Frontend       React + Mantine UI + Axios
 Backend        Spring Boot (Java)
 Database       PostgreSQL
 Build Tool     Maven
 
 2.Prerequisites
-
+---------------
 you have these installed:
 - Java 17+
 - Node.js 20+
@@ -19,7 +19,7 @@ you have these installed:
 - Git
 
 3.Setup Instructions
-
+---------------------
 Step 1 — Database Setup
 Open pgAdmin or SQL Shell and run:
 sql:
@@ -45,21 +45,19 @@ Step 3 — Frontend Setup
 5. Open browser
 
 4.API Details
-
+--------------
 Base URL
 http://localhost:8080/finance
 
 Endpoints
-
-1.GET- /finance - Get all records
-2.GET - /finance/{id} - Get record by ID
-3.POST - /finance - Create new record
-4.PUT - /finance/{id} - Update record
-5.DELETE - /finance/{id} - Delete record
-
+    1.GET- /finance - Get all records
+    2.GET - /finance/{id} - Get record by ID
+    3.POST - /finance - Create new record
+    4.PUT - /finance/{id} - Update record
+    5.DELETE - /finance/{id} - Delete record
 
 5.Sorting
-
+----------
 Sort records by passing query parameters:
 
 GET /finance?sortBy=amount&sortDir=desc
@@ -72,7 +70,7 @@ Supported sort fields:
 - date
 
 6.Request Body (POST / PUT):
-
+---------------------------
 json
 {
     "userName": "John",
@@ -84,7 +82,7 @@ json
 }
 
 7.Response Body:
-
+----------------
 json
 {
     "createdDate": "2024-01-15T10:30:00",
@@ -101,7 +99,7 @@ json
 }
 
 8.Features
----------
+-----------
 Backend Features:
 - REST API with 5 endpoints
 - CRUD operations (Create, Read, Update, Delete)
@@ -121,8 +119,8 @@ Frontend Features:
 - Error handling
 - Axios integration with backend
 
-10.Running the Complete Application
-
+9.Running the Complete Application
+------------------------------------
 Make sure all three services are running:
 
 PostgreSQL    5432   pgAdmin connected
@@ -130,7 +128,7 @@ Spring Boot   8080   http://localhost:8080/finance
 React         5173   http://localhost:5173
 
 12.Keywords Reference
-
+----------------------
 - Spring Boot CRUD API
 - JPA sorting example
 - React dynamic table
