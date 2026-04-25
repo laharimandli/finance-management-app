@@ -2,14 +2,14 @@ Finance Management Application
 -------------------------------
 A full-stack Finance Management Mini Application built with React + Mantine UI for the frontend and Spring Boot for the backend.
 
-1.Technology Stack
+1. Technology Stack
 -------------------
-Frontend       React + Mantine UI + Axios
-Backend        Spring Boot (Java)
-Database       PostgreSQL
+Frontend       React + Mantine UI + Axios,
+Backend        Spring Boot (Java),
+Database       PostgreSQL,
 Build Tool     Maven
 
-2.Prerequisites
+2. Prerequisites
 ---------------
 you have these installed:
 - Java 17+
@@ -18,13 +18,12 @@ you have these installed:
 - Maven
 - Git
 
-3.Setup Instructions
+3. Setup Instructions
 ---------------------
 Step 1 — Database Setup
 Open pgAdmin or SQL Shell and run:
 sql:
 CREATE DATABASE financedb;
-
 Step 2 — Backend Setup
 1. Open 'finance-backend' folder in IntelliJ IDEA
 2. Update 'src/main/resources/application.properties'
@@ -32,7 +31,6 @@ Step 2 — Backend Setup
  - Open 'FinanceBackendApplication.java'
  - Click the Green Play button
 4. Verify backend is running:
-    
 Step 3 — Frontend Setup
 1. Open terminal and navigate to frontend folder:
            bash: cd finance-frontend
@@ -44,7 +42,7 @@ Step 3 — Frontend Setup
            bash: npm run dev
 5. Open browser
 
-4.API Details
+4. API Details
 --------------
 Base URL
 http://localhost:8080/finance
@@ -56,7 +54,7 @@ Endpoints
     4.PUT - /finance/{id} - Update record
     5.DELETE - /finance/{id} - Delete record
 
-5.Sorting
+5. Sorting
 ----------
 Sort records by passing query parameters:
 
@@ -69,7 +67,7 @@ Supported sort fields:
 - amount
 - date
 
-6.Request Body (POST / PUT):
+6. Request Body (POST / PUT):
 ---------------------------
 json
 {
@@ -81,7 +79,7 @@ json
     "date": "2024-01-15"
 }
 
-7.Response Body:
+7. Response Body:
 ----------------
 json
 {
@@ -98,7 +96,7 @@ json
     "date": "2024-01-15"
 }
 
-8.Features
+8. Features
 -----------
 Backend Features:
 - REST API with 5 endpoints
@@ -119,7 +117,7 @@ Frontend Features:
 - Error handling
 - Axios integration with backend
 
-9.Running the Complete Application
+9. Running the Complete Application
 ------------------------------------
 Make sure all three services are running:
 
@@ -127,7 +125,7 @@ PostgreSQL    5432   pgAdmin connected
 Spring Boot   8080   http://localhost:8080/finance
 React         5173   http://localhost:5173
 
-12.Keywords Reference
+10. Keywords Reference
 ----------------------
 - Spring Boot CRUD API
 - JPA sorting example
