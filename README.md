@@ -24,6 +24,7 @@ Step 1 — Database Setup
 Open pgAdmin or SQL Shell and run:
 sql:
 CREATE DATABASE financedb;
+
 Step 2 — Backend Setup
 1. Open 'finance-backend' folder in IntelliJ IDEA
 2. Update 'src/main/resources/application.properties'
@@ -31,6 +32,7 @@ Step 2 — Backend Setup
  - Open 'FinanceBackendApplication.java'
  - Click the Green Play button
 4. Verify backend is running:
+   
 Step 3 — Frontend Setup
 1. Open terminal and navigate to frontend folder:
            bash: cd finance-frontend
