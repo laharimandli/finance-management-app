@@ -123,9 +123,9 @@ Frontend Features:
 ------------------------------------
 Make sure all three services are running:
 
-PostgreSQL    5432   pgAdmin connected
-Spring Boot   8080   http://localhost:8080/finance
-React         5173   http://localhost:5173
+- PostgreSQL    5432   pgAdmin connected
+- Spring Boot   8080   http://localhost:8080/finance
+- React         5173   http://localhost:5173
 
 10.Keywords Reference
 ----------------------
