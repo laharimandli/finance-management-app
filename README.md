@@ -60,9 +60,9 @@ Endpoints
 ----------
 Sort records by passing query parameters:
 
-GET /finance?sortBy=amount&sortDir=desc
-GET /finance?sortBy=date&sortDir=asc
-GET /finance?sortBy=userName&sortDir=asc
+- GET /finance?sortBy=amount&sortDir=desc
+- GET /finance?sortBy=date&sortDir=asc
+- GET /finance?sortBy=userName&sortDir=asc
 
 Supported sort fields:
 - userName
