@@ -51,13 +51,11 @@ http://localhost:8080/finance
 
 Endpoints
 
-Method    Endpoint       Description
-----------------------------------------
-GET      /finance        Get all records
-GET      /finance/{id}   Get record by ID
-POST     /finance        Create new record
-PUT      /finance/{id}   Update record
-DELETE   /finance/{id}   Delete record
+1.GET      /finance        Get all records
+2.GET      /finance/{id}   Get record by ID
+3.POST     /finance        Create new record
+4.PUT      /finance/{id}   Update record
+5.DELETE   /finance/{id}   Delete record
 
 
 5.Sorting
