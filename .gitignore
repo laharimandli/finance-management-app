@@ -1,0 +1,13 @@
+# Ignore Backend build files
+finance-backend/target/
+finance-backend/.mvn/
+finance-backend/*.class
+
+# Ignore Frontend dependencies
+finance-frontend/node_modules/
+finance-frontend/dist/
+finance-frontend/.env
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
